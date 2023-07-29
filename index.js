@@ -23,6 +23,10 @@ function hasTargetSum(array, target) {
    For each num in the array:
    Add num to "seen".
   If the loop completes without finding a pair, return false.
+  The function traverses the array once, where n is the number of elements in the array. 
+
+  Space Complexity: O(n)
+  The function uses a hash set to store the encountered elements.
 */
 
 /*
